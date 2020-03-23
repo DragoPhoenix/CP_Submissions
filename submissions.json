@@ -3454,6 +3454,23 @@
     ],
     "timestamp": "Nov/14/2021 22:04"
   },
+  "CF74045522": {
+    "contest_id": 1303,
+    "language": "GNU C++14",
+    "path": "codeforces/1303/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Erasing Zeroes",
+    "problem_url": "https://codeforces.com/contest/1303/problem/A",
+    "submission_id": "CF74045522",
+    "submission_url": "https://codeforces.com/contest/1303/submission/74045522",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Mar/23/2020 19:50"
+  },
   "CF74045949": {
     "contest_id": 1300,
     "language": "GNU C++14",
