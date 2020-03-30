@@ -3454,6 +3454,22 @@
     ],
     "timestamp": "Nov/14/2021 22:04"
   },
+  "CF74848319": {
+    "contest_id": 344,
+    "language": "GNU C++14",
+    "path": "codeforces/344/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Magnets",
+    "problem_url": "https://codeforces.com/contest/344/problem/A",
+    "submission_id": "CF74848319",
+    "submission_url": "https://codeforces.com/contest/344/submission/74848319",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/30/2020 22:14"
+  },
   "CF74934726": {
     "contest_id": 1332,
     "language": "GNU C++14",
