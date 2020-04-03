@@ -3454,6 +3454,23 @@
     ],
     "timestamp": "Nov/14/2021 22:04"
   },
+  "CF75320450": {
+    "contest_id": 25,
+    "language": "GNU C++17",
+    "path": "codeforces/25/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Roads in Berland",
+    "problem_url": "https://codeforces.com/contest/25/problem/C",
+    "submission_id": "CF75320450",
+    "submission_url": "https://codeforces.com/contest/25/submission/75320450",
+    "tags": [
+      "graphs",
+      "shortest paths",
+      "*1900"
+    ],
+    "timestamp": "Apr/03/2020 13:22"
+  },
   "CF75362151": {
     "contest_id": 1330,
     "language": "GNU C++17",
