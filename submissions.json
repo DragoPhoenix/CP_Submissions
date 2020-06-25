@@ -3454,6 +3454,22 @@
     ],
     "timestamp": "Nov/14/2021 22:04"
   },
+  "CF85073327": {
+    "contest_id": 1354,
+    "language": "GNU C++17",
+    "path": "codeforces/1354/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Alarm Clock",
+    "problem_url": "https://codeforces.com/contest/1354/problem/A",
+    "submission_id": "CF85073327",
+    "submission_url": "https://codeforces.com/contest/1354/submission/85073327",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jun/26/2020 02:13"
+  },
   "CF85074829": {
     "contest_id": 1354,
     "language": "GNU C++17",
