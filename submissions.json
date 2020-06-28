@@ -3454,6 +3454,22 @@
     ],
     "timestamp": "Nov/14/2021 22:04"
   },
+  "CF85314013": {
+    "contest_id": 1374,
+    "language": "GNU C++17",
+    "path": "codeforces/1374/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Multiply by 2, divide by 6",
+    "problem_url": "https://codeforces.com/contest/1374/problem/B",
+    "submission_id": "CF85314013",
+    "submission_url": "https://codeforces.com/contest/1374/submission/85314013",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jun/28/2020 20:21"
+  },
   "CF85325778": {
     "contest_id": 1374,
     "language": "GNU C++17",
