@@ -78,15 +78,14 @@ void solve()
 {
 	ll n,m,t=0,k=0,x=0,y=0,z=0,p,a1,a2,a3,a4,a5,ex,che,var=1,yd,f=INF,templ,tempr;
 	cin>>n>>x;
-	// set <pair<ll,ll>> ans;
+	set <pair<ll,ll>> ans;
 	vi a(n),b(n),c(n);
 	FOR(i,n){
 		cin>>a[i]>>b[i];
-		// pr1(sqrt((a[i]*a[i])+(b[i]*b[i])))
-		c[i]=ceil((double)sqrt((a[i]*a[i])+(b[i]*b[i])))	;
+		c[i]=ceil(sqrt(a[i]*a[i]+b[i]*b[i]))	;
 		if(c[i]<=x)
 		{
-			// ans.insert({a[i],b[i]});
+			ans.insert({a[i],b[i]});
 			z++;
 		}
 	}
