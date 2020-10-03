@@ -1,4 +1,20 @@
 {
+  "AC17165432": {
+    "contest_id": "arc104",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc104/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "DNA Sequence",
+    "problem_url": "https://atcoder.jp/contests/arc104/tasks/arc104_b",
+    "submission_id": "AC17165432",
+    "submission_url": "https://atcoder.jp/contests/arc104/submissions/17165432",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Oct/03/2020 18:01"
+  },
   "AC17288469": {
     "contest_id": "hhkb2020",
     "language": "C++ (GCC 9.2.1)",
