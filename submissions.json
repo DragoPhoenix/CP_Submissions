@@ -1,4 +1,20 @@
 {
+  "AC17296910": {
+    "contest_id": "hhkb2020",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/hhkb2020/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Neq Min",
+    "problem_url": "https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_c",
+    "submission_id": "AC17296910",
+    "submission_url": "https://atcoder.jp/contests/hhkb2020/submissions/17296910",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Oct/10/2020 17:40"
+  },
   "AC18860835": {
     "contest_id": "abc186",
     "language": "C++ (GCC 9.2.1)",
