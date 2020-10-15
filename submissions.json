@@ -3454,6 +3454,25 @@
     ],
     "timestamp": "Nov/14/2021 22:04"
   },
+  "CF95598000": {
+    "contest_id": 1407,
+    "language": "GNU C++17",
+    "path": "codeforces/1407/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Big Vova",
+    "problem_url": "https://codeforces.com/contest/1407/problem/B",
+    "submission_id": "CF95598000",
+    "submission_url": "https://codeforces.com/contest/1407/submission/95598000",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Oct/15/2020 20:27"
+  },
   "CF95617830": {
     "contest_id": 1407,
     "language": "GNU C++17",
