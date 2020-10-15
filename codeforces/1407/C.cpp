@@ -88,7 +88,6 @@ void solve()
 		}
 	}
 	cout<<"! ";
-	assert(used.size()==1);
 	FOR(i,n)
 	{
 		if(!a[i])
