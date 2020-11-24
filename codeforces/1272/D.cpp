@@ -55,32 +55,49 @@ void solve()
 	cin>>n;
 	vi a(n);
 	FOR(i,n)cin>>a[i];
-	vi vp1(n,1),vp2(n,1);
-	FORR(i,n-2,0)
-	{
-		if(a[i]<a[i+1])
-		{
-			vp1[i]=vp1[i+1]+1;
-		}
-		z=max(z,vp1[i]);
-	}
-	// debugv(vp1)
+	z=1;
+	a1=1;
+	a2=a[0];
 	FORL(i,1,n)
 	{
-		if(a[i]>a[i-1])
+		// pr3(y,a[i],x)
+		// pr3(i,a2,a1)
+		if(a[i]>a2)
 		{
-			vp2[i]=vp2[i-1]+1;
+			a2=a[i];
+			a1++;
 		}
-		z=max(z,vp2[i]);
-	}
-	// debugv(vp2)
-	FORL(i,1,n-1)
-	{
-		if(a[i-1]<a[i+1])
+		else
 		{
-			z=max((vp2[i-1]+vp1[i+1]),z);
+			// if(x<1)
+			// 	a1++;
+			x++;
+			if(x==1)
+			{
+				if(i-2>=0&&a[i]>a[i-2])
+				a2=a[i];
+				y=i;	
+			}//+1;
 		}
+		if(x<=1)
+		{
+			z=max(z,a1);
+			// if(z==4)
+			// 	pr1(i)
+		}
+		else
+		{
+			x=0;
+			a1=1;
+			i=y;
+			// pr1(i)
+			a2=a[i];
+		}
+		// pr3(y,a[i],x)
+		// pr3(i,a2,a1)
+		// cout<<"\n";
 	}
+	// pr2(x,a1)
 	cout<<z<<"\n";
 }	
 
