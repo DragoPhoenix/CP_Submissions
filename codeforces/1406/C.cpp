@@ -49,9 +49,8 @@ typedef pair<ll,ll> pi;
 inline long long  max3(long long  a, long long  b,long long  c){return (a)>(b)?((a)>(c)?(a):(c)):((b)>(c)?(b):(c));}
 inline long long  min3(long long  a, long long b,long long c){return (a)<(b)?((a)<(c)?(a):(c)):((b)<(c)?(b):(c));}
 
-vi vp(2);
-vi par(2);
-vector <vi> adj(2);
+vi vp(5),par(5);
+vector <vi> adj(5);
 
 int rec(int v,int pr)
 {
