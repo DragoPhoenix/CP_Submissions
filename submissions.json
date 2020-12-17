@@ -1,4 +1,23 @@
 {
+  "CF101568467": {
+    "contest_id": 1400,
+    "language": "GNU C++17",
+    "path": "codeforces/1400/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Binary String Reconstruction",
+    "problem_url": "https://codeforces.com/contest/1400/problem/C",
+    "submission_id": "CF101568467",
+    "submission_url": "https://codeforces.com/contest/1400/submission/101568467",
+    "tags": [
+      "2-sat",
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Dec/17/2020 21:40"
+  },
   "CF101678866": {
     "contest_id": 1400,
     "language": "GNU C++17",
