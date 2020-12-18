@@ -55,7 +55,7 @@ void solve()
 	cin>>n;
 	vector<int> a(n);
 	FOR(i,n)cin>>a[i];
-	unordered_map <int,int> mpi,mpl;
+	map <int,int> mpi,mpl;
 	mpi[a[0]]++;
 	FORL(j,1,n-2)
 	{
