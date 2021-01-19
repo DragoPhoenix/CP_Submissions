@@ -56,7 +56,7 @@ inline long long  min3(long long  a, long long b,long long c){return (a)<(b)?((a
 
 void solve()
 {
-	int n,m,d,t=0,k=0,x=0,y=0,z=0,a1,a2,a3,a4,a5,var=1;//,f=INF;
+	ll n,m,d,t=0,k=0,x=0,y=0,z=0,a1,a2,a3,a4,a5,var=1,f=INF;
 	cin>>n;
 	vi a(2*n);
 	m=2*n;
