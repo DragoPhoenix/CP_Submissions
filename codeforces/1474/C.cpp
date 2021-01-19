@@ -65,7 +65,7 @@ void solve()
 	map <int,int> mp,mpt;
 	set <int> st,stt;
 	FOR(i,m){cin>>a[i];mp[a[i]]++;st.insert(a[i]);z=max(z,a[i]);}
-	Sort(a);
+	// Sort(a);
 	// z=a[m-1];
 	// st.erase(z);
 	mp[z]--;
