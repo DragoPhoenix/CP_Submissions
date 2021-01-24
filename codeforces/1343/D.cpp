@@ -82,10 +82,10 @@ void solve()
 	// debugv(p1)
 	// debugv(p2)
 	sort(v.begin(), v.end());
-	// for(auto e:v)
-	// {
-	// 	cnt[e.F+e.S]--;
-	// }	//debugp(e)
+	for(auto e:v)
+	{
+		cnt[e.F+e.S]--;
+	}	//debugp(e)
 	FORL(i,2,2*k+1)
 	{
 		// pi p={i,i};
@@ -95,7 +95,7 @@ void solve()
 		// pr3(it,y,mp[i])
 		// x=2*x+y;
 		// pr2(i,x)
-		x=cnt[i]-mp[i];
+		x=cnt[i];
 		y=n/2-x-mp[i];
 		// pr3(x,y,mp[i])
 		x=x+2*y;
