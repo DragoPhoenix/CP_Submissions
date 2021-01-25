@@ -64,59 +64,43 @@ void solve()
 	n-=x;
 	m-=x;//1,2,3
 
-	// k=m-n;
-	// z+=k;
-	// n-=k;
-	// m-=2*k;
-	// assert(n==m);//1,2,2
+	k=m-n;
+	z+=k;
+	n-=k;
+	m-=2*k;
+	assert(n==m);//1,2,2
 
-	// if(n<0)
-	// {
-	// 	z+=n;
-	// 	cout<<z<<"\n";
-	// 	return;
-	// }
-	// x=n/3;
-	// z+=2*x;
-	// n-=3*x;
-	// m-=3*x;//1,2,2 && 1,1,2
-
-	// while(n+m>2)//left
-	// {
-	// 	if(n>m)swap(n,m);
-	// 	k=m-n;
-	// 	z+=k;
-	// 	if(!k)
-	// 	{
-	// 		n--;
-	// 		m-=2;
-	// 		if(n>=0&&m>=0)
-	// 		z++;
-	// 	}
-	// 	else
-	// 	{
-	// 		n-=k;
-	// 		m-=2*k;
-	// 	}
-	// }
-	// cout<<z<<"\n";
-
-	//n,m,0
-	//no of teams b/w 1 and (n+m)/3
-	y=0;
-	int l=0,r=(n+m)/3;
-	while(l<=r)
+	if(n<0)
 	{
-		int mid=l+(r-l)/2;
-		if(n+m-3*mid>=0&&n>=mid&&m>=mid)
+		z+=n;
+		cout<<z<<"\n";
+		return;
+	}
+	x=n/3;
+	z+=2*x;
+	n-=3*x;
+	m-=3*x;//1,2,2 && 1,1,2
+
+	while(n+m>2)//left
+	{
+		if(n>m)swap(n,m);
+		k=m-n;
+		z+=k;
+		if(!k)
 		{
-			y=mid;
-			l=mid+1;
+			n--;
+			m-=2;
+			if(n>=0&&m>=0)
+			z++;
 		}
 		else
-			r=mid-1;
+		{
+			n-=k;
+			m-=2*k;
+		}
 	}
-	cout<<z+y<<"\n";
+	cout<<z<<"\n";
+
 }
 
 int main() 
