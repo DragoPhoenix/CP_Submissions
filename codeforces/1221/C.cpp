@@ -62,14 +62,27 @@ void solve()
 	//x<n
 	z=x;
 	n-=x;
-	m-=x;//1,2,3
-
-	k=m-n;
-	z+=k;
-	n-=k;
-	m-=2*k;
-	assert(n==m);//1,2,2
-
+	m-=x;
+	//
+	// while(n+m>2)
+	// {
+		k=m-n;
+		z+=k;
+		// if(!k)
+		// {
+			// n--;
+			// m-=2;
+			// z++;
+		// }
+		// else
+		// {
+			n-=k;
+			m-=2*k;
+		// }
+		if(n>m)swap(n,m);
+	// }
+		assert(n==m);
+	// pr2(n,m)
 	if(n<0)
 	{
 		z+=n;
@@ -79,9 +92,8 @@ void solve()
 	x=n/3;
 	z+=2*x;
 	n-=3*x;
-	m-=3*x;//1,2,2 && 1,1,2
-
-	while(n+m>2)//left
+	m-=3*x;
+	while(n+m>2)
 	{
 		if(n>m)swap(n,m);
 		k=m-n;
