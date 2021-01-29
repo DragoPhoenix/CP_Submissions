@@ -76,16 +76,16 @@ void solve()
     else//n>k
     {
         // pr1("u")
-        // x=k-(n%k);
-        // a1=n/k;
-        // y=a1+1;
-        // y=y*k;
-        // // pr2(y,z)
-        // z=ceil((double)y/n);
+        x=k-(n%k);
+        a1=n/k;
+        y=a1+1;
+        y=y*k;
+        // pr2(y,z)
+        z=ceil((double)y/n);
         if(n%k==0)
             cout<<1<<"\n";
         else
-            cout<<2<<"\n";
+            cout<<z<<"\n";
         // return;
         // pr2(y,z)//
         // assert(y==z);
