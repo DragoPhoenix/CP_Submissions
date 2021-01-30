@@ -60,9 +60,52 @@ void solve()
 {
     ll n,m,t=0,k=0,x=0,y=0,z=0,a1,a2,a3,a4,a5,var=1,f=INF;
     cin>>n>>k;
-    x=ceil((double)n/k);
-    y=ceil(((double)x*k)/n);
-    cout<<y<<"\n";
+    // vi a(n);
+    // pr1("h")
+    // FOR(i,n)cin>>a[i];
+    if(n<=k) 
+    {
+        a5=k%n;
+        a4=ceil((double)a5/n);
+        y=a4+k/n;
+        // z=ceil((double)k/n);
+        cout<<y<<"\n";
+
+        // assert(y==z);
+    }
+    else//n>k
+    {
+        // pr1("u")
+        // x=k-(n%k);
+        // a1=n/k;
+        // y=a1+1;
+        // y=y*k;
+        // // pr2(y,z)
+        // z=ceil((double)y/n);
+        if(n%k==0)
+            cout<<1<<"\n";
+        else
+            cout<<2<<"\n";
+        // return;
+        // pr2(y,z)//
+        // assert(y==z);
+    }
+    // x=1;
+    // y=1000000000;
+    // while(x<=y)
+    // {
+    //     pr2(x,y)
+    //     a1=x+(y-x)/2;
+    //     if(n*a1>=k)
+    //     {
+    //         y=a1-1;
+    //     }
+    //     else
+    //     {
+    //         y=a1+1;
+    //     }
+    // }
+    // cout<<a1<<"\n";
 }
 
 int main() 
