@@ -21,10 +21,8 @@ using namespace std;
 #define INF 9223372036854775807
 //18446744073709551615
 #define abs llabs
-#define by_ANIKET ios::sync_with_stdio(false);  cin.tie(NULL); cout.tie(NULL);
-
-#define no cout<<"No\n";
-#define yes cout<<"Yes\n";
+#define no cout<<"NO\n";
+#define yes cout<<"YES\n";
 
 #define Clear( a, b ) memset( a, b, sizeof( a ) )
 #define ppc               __builtin_popcount
@@ -54,57 +52,87 @@ typedef pair<ll,ll> pi;
 inline long long  max3(long long  a, long long  b,long long  c){return (a)>(b)?((a)>(c)?(a):(c)):((b)>(c)?(b):(c));}
 inline long long  min3(long long  a, long long b,long long c){return (a)<(b)?((a)<(c)?(a):(c)):((b)<(c)?(b):(c));}
 
-const ll N=1e5+105;
-vi vp(N, INF), h(N, INF);
-ll k, n;
+const ll N=2e5+5;
 
-ll rec(int i)
-{
-    if(vp[i] == INF && i < n)
-    {
-        vp[i] = abs(h[i] - h[i+1]) + rec(i+1);
-        FORL(ii, 2, k+1)
-        {
-            if(rec(i+ii)!=INF)
-            vp[i] = min(vp[i], abs(h[i] - h[i+ii]) + rec(i+ii));
-        }
-    }
-    if(i >= n)
-        return INF;
-    return vp[i];
-}
+// void solve()
+// {
+//     ll n,m,t=0,k=0,x=0,y=0,z=0,a1,a2,a3,a4,a5,var=1,f=INF;
+//     cin>>n;
+//     vi a(n);
+//     FOR(i,n)cin>>a[i];
+//     std::vector<int> v(n,0);
+//     v[0]=(a[0]);
+//     FORL(i,1,n)
+//     {
+//         FOR(j,n)
+//         {
+//             if(v[j]<a[i])
+//             {
+//                 k=j;
+//                 break;
+//             }
+//         }
+//         v[k]=(a[i]);
+//     }
+//     // debugv(v)
+//     z=n;
+//     FOR(i,n)
+//     {
+//         if(v[i]==0)
+//         {
+//             z=i;break;
+//         }
+//     }   
+//     cout<<z<<"\n";
+// }
+// int main() 
+// {
+//     // #ifndef ONLINE_JUDGE
+//     // freopen("Input.txt", "r", stdin);
+//     // freopen("Output.txt", "w", stdout);
+//     // freopen("Error.txt","w",stderr);
+//     // #endif
+//     ios::sync_with_stdio(false);  cin.tie(NULL); cout.tie(NULL);
+//     ll T=1,t=0;
+//     cin>>T;
+//     while(t++<T)
+//     {
+//         // cout<<"Case #"<<t<<":"<<' ';
+//         solve();
+//         // cout<<'\n';
+//     }
+//     cerr << "Time : " << 1000 * ((double)clock()) / (double)CLOCKS_PER_SEC << "ms\n";
+// }
 
-void solve()
-{
-    ll m, t=0, kk=0, x=0, y=0, z=0, a1 = 0, a2, a3, a4, a5, var=1, f=0;
-    
-    cin >> n >> k;
-    
-    FOR(i, n) cin >> h[i];
-    vp[n-1] = 0;
-    cout << rec(0) << "\n";
-}
 
-int main() 
+int main()
 {
-    by_ANIKET
-    ll T = 1,t = 0;
-    // cin >> T;
-    while(t++ < T)
-    {
-        // cout<<"Case #"<<t<<":"<<' ';
-        solve();
-        // cout<<'\n';
-    }
-    cerr << "Time : " << 1000 * ((double)clock()) / (double)CLOCKS_PER_SEC << "ms\n";
-}
-//   ©
-//                      ______  __    __ ______ __    __ ________ ________ 
-//                     /      \|  \  |  \      \  \  /  \        \        \
-//                    |  ▓▓▓▓▓▓\ ▓▓\ | ▓▓\▓▓▓▓▓▓ ▓▓ /  ▓▓ ▓▓▓▓▓▓▓▓\▓▓▓▓▓▓▓▓
-//  ______ ______     | ▓▓__| ▓▓ ▓▓▓\| ▓▓ | ▓▓ | ▓▓/  ▓▓| ▓▓__      | ▓▓   
-// |      \      \    | ▓▓    ▓▓ ▓▓▓▓\ ▓▓ | ▓▓ | ▓▓  ▓▓ | ▓▓  \     | ▓▓   
-//  \▓▓▓▓▓▓\▓▓▓▓▓▓    | ▓▓▓▓▓▓▓▓ ▓▓\▓▓ ▓▓ | ▓▓ | ▓▓▓▓▓\ | ▓▓▓▓▓     | ▓▓   
-//                    | ▓▓  | ▓▓ ▓▓ \▓▓▓▓_| ▓▓_| ▓▓ \▓▓\| ▓▓_____   | ▓▓   
-//                    | ▓▓  | ▓▓ ▓▓  \▓▓▓   ▓▓ \ ▓▓  \▓▓\ ▓▓     \  | ▓▓   
-//                     \▓▓   \▓▓\▓▓   \▓▓\▓▓▓▓▓▓\▓▓   \▓▓\▓▓▓▓▓▓▓▓   \▓▓   
+  int n,k;
+  // set<pair<int,int>> st;
+  cin>>n>>k;
+  vector<int> a(n),dp(n,1000000000);
+  for(int i=0;i<n;i++)cin>>a[i];
+  dp[n-1]=0;
+  dp[n-2]=dp[n-1]+abs(a[n-1]-a[n-2]);
+  // if(k!=1)
+  // st.insert({0,n-1});
+  // st.insert({dp[n-2],n-2});
+  
+  for(int i=n-3;i>=0;i--)
+  {
+    //dp[i]=min(dp[i+1]+abs(a[i+1]-a[i]),dp[i+2]+abs(a[i+2]-a[i]));
+  	// pair <int,int>p=*st.begin();
+  	// debugp(p)
+    // dp[i]=p.first+abs(a[p.second]-a[i]);
+    // st.insert({dp[i],i});
+    // if(i+k<n)
+       // st.erase({dp[i+k],i+k});
+  	FORL(j,1,k+1)
+  	{
+  		if(i+j==n)break;
+  		dp[i]=min(dp[i],dp[i+j]+abs(a[i]-a[i+j]));
+  	}
+  }
+  // debugv(dp)
+  cout<<dp[0]<<"\n";
+} 
