@@ -1,4 +1,20 @@
 {
+  "AC19984491": {
+    "contest_id": "abc191",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc191/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Digital Graffiti",
+    "problem_url": "https://atcoder.jp/contests/abc191/tasks/abc191_c",
+    "submission_id": "AC19984491",
+    "submission_url": "https://atcoder.jp/contests/abc191/submissions/19984491",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Feb/06/2021 18:24"
+  },
   "AC20518729": {
     "contest_id": "abc193",
     "language": "C++ (GCC 9.2.1)",
