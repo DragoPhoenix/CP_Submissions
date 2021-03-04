@@ -54,6 +54,7 @@ typedef pair<ll,ll> pi;
 inline long long  max3(long long  a, long long  b,long long  c){return (a)>(b)?((a)>(c)?(a):(c)):((b)>(c)?(b):(c));}
 inline long long  min3(long long  a, long long b,long long c){return (a)<(b)?((a)<(c)?(a):(c)):((b)<(c)?(b):(c));}
 
+const ll N=2e5+5;
 
 // 1 2 3 4 5
 // 1-2 3-4 5
@@ -61,34 +62,12 @@ inline long long  min3(long long  a, long long b,long long c){return (a)<(b)?((a
 // 3-4 5
 // 4-5
 // a[1][2] + 2 * a[3][4] + 2 * a[4][5] + a[2][3]
-int a[5][5];
-vi v,arr;
-ll N;
-vector<bool> choice(10000,false);
-ll z=0;
-void gen_perm(ll n)
-{
-	if(n==N)
-	{
-		z= max (z, a[v[0]][v[1]]+2*(a[v[2]][v[3]]+a[v[3]][v[4]])+a[v[1]][v[2]]);
-		return;
-	}
-	for (int i = 0; i < N; ++i)
-	{
-		if(choice[i])continue;
-		v.PB(arr[i]);
-		choice[i]=true;
-		gen_perm(n+1);
-		choice[i]=false;
-		v.POB();
-	}
-}
 
 void solve()
 {
-	ll n,m,t=0,k=0,x=0,y=0,a1,a2,a3,a4,a5,var=1,f=INF;
+	ll n,m,t=0,k=0,x=0,y=0,z=0,a1,a2,a3,a4,a5,var=1,f=INF;
 	// cin>>n;
-	
+	int a[5][5];
 	FOR(i,5)
 		FOR(j,5)
 			cin>>a[i][j];
@@ -100,9 +79,10 @@ void solve()
 			a[j][i]=a[i][j];
 		}
 	}
-	arr={0,1,2,3,4};
-	N=5;
-	gen_perm(0);
+	int v[]={0,1,2,3,4};
+	do { 
+		z= max (z, a[v[0]][v[1]]+2*(a[v[2]][v[3]]+a[v[3]][v[4]])+a[v[1]][v[2]]);
+	} while (next_permutation(v, v + 5));
 	cout<<z<<"\n";
 }
 int main() 
