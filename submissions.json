@@ -1,4 +1,21 @@
 {
+  "CF109352464": {
+    "contest_id": 1118,
+    "language": "GNU C++17",
+    "path": "codeforces/1118/D2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D2",
+    "problem_name": "Coffee and Coursework (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1118/problem/D2",
+    "submission_id": "CF109352464",
+    "submission_url": "https://codeforces.com/contest/1118/submission/109352464",
+    "tags": [
+      "binary search",
+      "greedy",
+      "*1700"
+    ],
+    "timestamp": "Mar/07/2021 22:44"
+  },
   "CF109365191": {
     "contest_id": 466,
     "language": "GNU C++17",
