@@ -114,7 +114,7 @@ void solve()
 	{
 		cin>>a[i];
 		b[i]+=b[i-1]+a[i];
-		if(i!=n)
+		if(i!=n&&i>=2)
 		mp[b[i]].PB(i);
 	}
 	// debugv(b)
