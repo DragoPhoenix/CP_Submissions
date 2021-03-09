@@ -1,4 +1,21 @@
 {
+  "CF109497367": {
+    "contest_id": 1488,
+    "language": "Kotlin 1.4",
+    "path": "codeforces/1488/A.kt",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "From Zero To Y",
+    "problem_url": "https://codeforces.com/contest/1488/problem/A",
+    "submission_id": "CF109497367",
+    "submission_url": "https://codeforces.com/contest/1488/submission/109497367",
+    "tags": [
+      "*special problem",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Mar/09/2021 20:51"
+  },
   "CF109501989": {
     "contest_id": 1488,
     "language": "Kotlin 1.4",
