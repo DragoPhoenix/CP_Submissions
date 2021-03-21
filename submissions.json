@@ -1,4 +1,20 @@
 {
+  "AC21144185": {
+    "contest_id": "arc115",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc115/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "\u2115 Coloring",
+    "problem_url": "https://atcoder.jp/contests/arc115/tasks/arc115_c",
+    "submission_id": "AC21144185",
+    "submission_url": "https://atcoder.jp/contests/arc115/submissions/21144185",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Mar/21/2021 17:39"
+  },
   "AC21144215": {
     "contest_id": "arc115",
     "language": "C++ (GCC 9.2.1)",
