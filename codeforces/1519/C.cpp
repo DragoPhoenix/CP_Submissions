@@ -107,7 +107,7 @@ void solve()
     		// pr3(a1,(i+1),a2)
     		if(a2 == a1)
     		{
-    			ans2[i] += (a3 - e.S[a2-1]); // remove
+    			// ans2[i] += (a3 - e.S[a2-1]); // remove
     			// ans2[n] -= ()
     			break;
     		}
