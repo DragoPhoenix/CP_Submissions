@@ -1,4 +1,21 @@
 {
+  "CF114789377": {
+    "contest_id": 1093,
+    "language": "GNU C++17",
+    "path": "codeforces/1093/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Beautiful Graph",
+    "problem_url": "https://codeforces.com/contest/1093/problem/D",
+    "submission_id": "CF114789377",
+    "submission_url": "https://codeforces.com/contest/1093/submission/114789377",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*1700"
+    ],
+    "timestamp": "May/01/2021 21:28"
+  },
   "CF114809759": {
     "contest_id": 1093,
     "language": "GNU C++17",
