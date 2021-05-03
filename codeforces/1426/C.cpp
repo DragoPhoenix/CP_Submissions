@@ -42,7 +42,7 @@ using namespace std;
 #define debugs(m)      cerr<< #m <<" : [ "; for(auto itr = m.begin(); itr!=m.end();itr++) cerr<<*itr<<" "; cerr<<"]\n";
 #define debugm(m)      cerr<< #m <<" : [ "; for(auto itr = m.begin();itr!=m.end(); itr++) cerr<<"("<<itr->first<<","<<itr->second<<") ";cerr<<"]\n";
 typedef unsigned long long ull;
-typedef int ll;
+typedef long long int ll;
 typedef vector<ll> vi;
 typedef pair<ll,ll> pi;
 
@@ -55,14 +55,14 @@ inline long long  max3(long long  a, long long  b,long long  c){return (a)>(b)?(
 inline long long  min3(long long  a, long long b,long long c){return (a)<(b)?((a)<(c)?(a):(c)):((b)<(c)?(b):(c));}
 
 const ll N=2e5+5;
-
+map <int,int> mp;
 
 void solve()
 {
     ll n,m,t=0,k=0,x=0,y=0,z=0,a1,a2,a3,a4,a5,var=1,f=INF;
     cin >> n;
 	z = n-1;
-
+	if(mp.find(n)==mp.end())
 	FORL(i,2,n)
 	{
 		if(i-1+ceil(((double)(n-i))/i) < i+ceil(((double)(n-(i+1)))/(i+1)))
@@ -70,9 +70,12 @@ void solve()
 			z = i-1+ceil(((double)(n-i))/i);
 			// pr1(i)
 			break;
+
 		}
 	}
-
+	else
+		z = mp[n];
+	mp[n] = z;
 	cout<<z<<"\n";
 	// int l = 1, r = n-1;
 	// while(r-l>=10)
