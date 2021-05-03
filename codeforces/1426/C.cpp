@@ -70,7 +70,6 @@ void solve()
 			z = i-1+ceil(((double)(n-i))/i);
 			// pr1(i)
 			break;
-
 		}
 	}
 
