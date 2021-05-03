@@ -42,7 +42,7 @@ using namespace std;
 #define debugs(m)      cerr<< #m <<" : [ "; for(auto itr = m.begin(); itr!=m.end();itr++) cerr<<*itr<<" "; cerr<<"]\n";
 #define debugm(m)      cerr<< #m <<" : [ "; for(auto itr = m.begin();itr!=m.end(); itr++) cerr<<"("<<itr->first<<","<<itr->second<<") ";cerr<<"]\n";
 typedef unsigned long long ull;
-typedef int32_t ll;
+typedef int ll;
 typedef vector<ll> vi;
 typedef pair<ll,ll> pi;
 
