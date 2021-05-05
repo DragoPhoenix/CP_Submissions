@@ -1,4 +1,22 @@
 {
+  "CF115234652": {
+    "contest_id": 1520,
+    "language": "GNU C++17",
+    "path": "codeforces/1520/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Ordinary Numbers",
+    "problem_url": "https://codeforces.com/contest/1520/problem/B",
+    "submission_id": "CF115234652",
+    "submission_url": "https://codeforces.com/contest/1520/submission/115234652",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "May/05/2021 20:23"
+  },
   "CF119441264": {
     "contest_id": 1534,
     "language": "GNU C++17",
