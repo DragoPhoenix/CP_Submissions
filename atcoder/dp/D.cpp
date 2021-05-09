@@ -57,7 +57,7 @@ inline long long  min3(long long  a, long long b,long long c){return (a)<(b)?((a
 const ll N=1e2+5;
 vi w(N, 0), v(N, 0);
 ll k, n;
-vector < array <ll,100005> > vp(2);
+vector < array <ll,100005> > vp(N);
 
 ll rec(int i, int wt)
 {
@@ -103,16 +103,16 @@ void solve()
         {
             if(j < w[i]) // can't be included
             {
-                vp[i%2][j] = vp[(i-1)%2][j];
+                vp[i][j] = vp[i-1][j];
             }
             else
             {
-                vp[i%2][j] = max(vp[(i-1)%2][j], v[i] + vp[(i-1)%2][j-w[i]]);
+                vp[i][j] = max(vp[i-1][j], v[i] + vp[i-1][j-w[i]]);
             }
         }
     }
-    // debuga2(vp,2,20)
-    cout << vp[(n-1)%2][k] << "\n";
+    // debuga2(vp,20,20)
+    cout << vp[n-1][k] << "\n";
 }
 
 int main() 
