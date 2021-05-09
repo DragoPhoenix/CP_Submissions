@@ -87,32 +87,7 @@ void solve()
 
     FOR(i, n) cin >> w[i] >> v[i];
     
-    // cout << rec(n-1, k) << "\n";
-
-    // vp[0][i]=k;//i>=
-    FOR(i, k+2)
-    {
-        if(i >= w[0])
-            vp[0][i] = v[0];
-        else
-            vp[0][i] = 0;
-    }
-    FORL(i, 1, n)
-    {
-        FOR(j, k+2)
-        {
-            if(j < w[i]) // can't be included
-            {
-                vp[i][j] = vp[i-1][j];
-            }
-            else
-            {
-                vp[i][j] = max(vp[i-1][j], v[i] + vp[i-1][j-w[i]]);
-            }
-        }
-    }
-    // debuga2(vp,20,20)
-    cout << vp[n-1][k] << "\n";
+    cout << rec(n-1, k) << "\n";
 }
 
 int main() 
