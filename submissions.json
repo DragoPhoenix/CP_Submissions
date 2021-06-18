@@ -1,4 +1,20 @@
 {
+  "CF119803408": {
+    "contest_id": 1267,
+    "language": "GNU C++17",
+    "path": "codeforces/1267/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Elections",
+    "problem_url": "https://codeforces.com/contest/1267/problem/E",
+    "submission_id": "CF119803408",
+    "submission_url": "https://codeforces.com/contest/1267/submission/119803408",
+    "tags": [
+      "greedy",
+      "*1700"
+    ],
+    "timestamp": "Jun/18/2021 19:55"
+  },
   "CF119933213": {
     "contest_id": 1537,
     "language": "GNU C++17",
