@@ -1,4 +1,20 @@
 {
+  "AC24502608": {
+    "contest_id": "abc211",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc211/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "chokudai",
+    "problem_url": "https://atcoder.jp/contests/abc211/tasks/abc211_c",
+    "submission_id": "AC24502608",
+    "submission_url": "https://atcoder.jp/contests/abc211/submissions/24502608",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jul/24/2021 18:04"
+  },
   "AC24506424": {
     "contest_id": "abc211",
     "language": "C++ (GCC 9.2.1)",
