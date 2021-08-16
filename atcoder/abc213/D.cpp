@@ -87,7 +87,7 @@ void solve()
     FOR(i, n+1)
     sort(adj[i].begin(), adj[i].end());
     dfs(1, 0);
-    // cout << "\n";
+    cout << "\n";
 }
 
 int main() 
