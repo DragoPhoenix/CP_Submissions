@@ -1,4 +1,20 @@
 {
+  "CF129870958": {
+    "contest_id": 1194,
+    "language": "GNU C++17",
+    "path": "codeforces/1194/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Yet Another Crosses Problem",
+    "problem_url": "https://codeforces.com/contest/1194/problem/B",
+    "submission_id": "CF129870958",
+    "submission_url": "https://codeforces.com/contest/1194/submission/129870958",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Sep/25/2021 22:21"
+  },
   "CF129922073": {
     "contest_id": 1279,
     "language": "GNU C++17",
