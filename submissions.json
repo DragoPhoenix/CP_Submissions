@@ -1,4 +1,22 @@
 {
+  "CF130408936": {
+    "contest_id": 1581,
+    "language": "GNU C++17",
+    "path": "codeforces/1581/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "CQXYM Count Permutations",
+    "problem_url": "https://codeforces.com/contest/1581/problem/A",
+    "submission_id": "CF130408936",
+    "submission_url": "https://codeforces.com/contest/1581/submission/130408936",
+    "tags": [
+      "combinatorics",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Oct/01/2021 00:33"
+  },
   "CF130805898": {
     "contest_id": 1506,
     "language": "GNU C++17",
