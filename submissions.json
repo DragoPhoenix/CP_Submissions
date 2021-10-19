@@ -1,4 +1,22 @@
 {
+  "CF132431567": {
+    "contest_id": 1327,
+    "language": "GNU C++17",
+    "path": "codeforces/1327/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Count The Blocks",
+    "problem_url": "https://codeforces.com/contest/1327/problem/E",
+    "submission_id": "CF132431567",
+    "submission_url": "https://codeforces.com/contest/1327/submission/132431567",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Oct/19/2021 16:55"
+  },
   "CF132545325": {
     "contest_id": 1292,
     "language": "GNU C++17",
