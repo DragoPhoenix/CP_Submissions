@@ -1,4 +1,24 @@
 {
+  "CF132545325": {
+    "contest_id": 1292,
+    "language": "GNU C++17",
+    "path": "codeforces/1292/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Aroma's Search",
+    "problem_url": "https://codeforces.com/contest/1292/problem/B",
+    "submission_id": "CF132545325",
+    "submission_url": "https://codeforces.com/contest/1292/submission/132545325",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "geometry",
+      "greedy",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Oct/20/2021 21:15"
+  },
   "CF132605827": {
     "contest_id": 1498,
     "language": "GNU C++17",
