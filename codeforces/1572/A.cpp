@@ -47,6 +47,47 @@ inline long long  min3(long long  a, long long b,long long c){return (a)<(b)?((a
 const ll N=2e5+5;
 vector <set<int>> adji, adjo;
 
+vector<bool> bvis;
+
+vi colour;
+bool directed_cycle_check_dfs(int v)
+{
+    bvis[v] = true;// extra
+    colour[v] = 1;
+    for(auto e : adjo[v])
+        if(colour[e] == 1)
+            return true;
+        else if(colour[e] == 0 && directed_cycle_check_dfs(e)) // 0 to only call for unvisited
+            return true;
+
+    colour[v] = 2;
+    return false;
+}
+
+vi topo_order;
+// vector<bool> bvis;
+void topo_dfs(int v) 
+{
+    bvis[v] = true;
+    for (auto u : adjo[v])
+        if (!bvis[u])
+            topo_dfs(u);
+    
+    topo_order.PB(v);
+}
+
+void topological_sort(ll n) 
+{
+    bvis.clear();
+    bvis.resize(n, false);
+    topo_order.clear();
+    FOR(i, n)
+        if (!bvis[i])
+            topo_dfs(i);
+    
+    reverse(topo_order.begin(), topo_order.end());
+}
+
 void solve()
 {
     ll n, m, t = 0, k = 0, x = 0, y = 0, z = 0, a1, a2, a3, a4, a5, var = 1, f = INF;
@@ -58,7 +99,7 @@ void solve()
     adji.resize(n);
     adjo.clear();
     adjo.resize(n);
-    
+
     vector<vi> a(n);
 
     FOR(i, n)
@@ -70,8 +111,6 @@ void solve()
             a[i].PB(x);
         }
     }
-    
-    // debugv2(a)
 
     FOR(i, n)
     {
@@ -83,47 +122,88 @@ void solve()
         }
     }
 
-    set<int> q;
+    bvis.clear();
+    bvis.resize(n, false);
+    colour.clear();
+    colour.resize(n, 0);
     FOR(i, n)
     {
-        if(adji[i].empty())
-            q.insert(i);
+        if(!bvis[i])
+        {
+            if(directed_cycle_check_dfs(i))
+            {
+                cout << "-1\n";
+                return;
+            }
+        }
     }
-    vi vis(n, 0);
-    k = -1;
 
-    while(!q.empty())
+    topo_order.clear();
+    topological_sort(n);
+    // debugv(topo_order)
+
+    y = -1;
+    bvis.clear();
+    bvis.resize(n, false);
+    vi zval(n, INF);
+    z = 0;
+
+    FOR(i, n)
     {
-        // debugs(q)
-        // pr1(z)
-        
-        auto it = q.lower_bound(k);
-
-        if(it == q.end())
+        // pr3(topo_order[i], y, z)
+        // if(topo_order[i] > y)
+        // {
+        //     y = topo_order[i];
+        //     zval[topo_order[i]] = z;
+        //     continue;
+        // }
+        y = 0;
+        x = 0;
+        t = 0;
+        a1 = a2 = 0;
+        // pr1(topo_order[i])
+        // debugs(adji[topo_order[i]])
+        for(auto e : adji[topo_order[i]])
         {
-            z++;
-            x = *q.begin();
+            if(e > topo_order[i] && zval[e] >= z)// && e > topo_order[i])
+            {
+                z++;
+                x = 1;
+                break;
+            }
+            else if(e > topo_order[i])
+            {
+                // if(e > topo_order[i])
+                    // t = 1;
+                y = max(y, zval[e]);
+                a1 = 1;
+            }
+            else
+            {
+                t = max(t, zval[e]);
+                a2 = 1;
+            }
         }
+        // pr3(x, z, y)
+        if(x)
+            zval[topo_order[i]] = z;
         else
-            x = *it;
-
-        q.erase(x);
-        vis[x] = 1;
-        y++;
-        for(auto e : adjo[x])
         {
-            adji[e].erase(x);
-            if(adji[e].empty())
-                q.insert(e);
+            if(a1)
+                zval[topo_order[i]] = max(y + 1, t);
+            else if(a2)
+                zval[topo_order[i]] = t;
+            else if(adji[topo_order[i]].empty())
+                zval[topo_order[i]] = 0;
+            else
+                zval[topo_order[i]] = z;
         }
-        k = x;
-        // debugs(q)
-        // pr3(x, z ,"\n")
+
+        // debugv(zval)
+        // pr2(topo_order[i], z)
+        // pr1("\n")
     }
-    if(y == n)
-        cout << z + 1 << "\n";
-    else
-        cout << "-1\n";
+    cout << z + 1 << "\n";
 }
 
 int main() 
