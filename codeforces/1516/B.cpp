@@ -59,6 +59,8 @@ void solve()
         cin >> a[i];
     }
 
+    // sort(a.begin(), a.end());
+
     vi l(n, 0), r(n, 0);
     
     l[0] = a[0];
@@ -71,27 +73,34 @@ void solve()
     
     FOR(i, n - 1)
     {
-        if(l[i] == r[i+1])
-        {
-            yes
-            return;
-        }
+        // FORL(j, i + 1, n)
+        // {
+            if(l[i] == r[i + 1])
+            {
+                yes
+                return;
+            }
+        // }
     }
 
-    FOR(i, n - 1)
+    for(int i = 0; i < n; i++)
     {
-        FORL(j, i + 1, n - 1)
+        for(int j = i + 1; j < n - 1; j++)
         {
+            // pr2(i, j)
             x = l[i];
             y = l[j] ^ l[i];
             z = l[n-1] ^ l[j];
-            if(x == y && y == z)
+            if(x == y && x == z)
             {
                 yes
                 return;
             }
         }
     }
+
+    // debugv(l)
+    assert(l[n-1] != 0);
     no
 }
 
