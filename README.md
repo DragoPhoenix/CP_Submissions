@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+312 | [D - Add to Neighbour and Remove](https://codeforces.com/contest/1462/problem/D) | [GNU C++17](./codeforces/1462/D.cpp) | `greedy` `math` `number theory` `*1400` | Dec/11/2021 20:33 | 
 311 | [A - The Miracle and the Sleeper](https://codeforces.com/contest/1562/problem/A) | [GNU C++17](./codeforces/1562/A.cpp) | `greedy` `math` `*800` | Nov/14/2021 22:04 | 
 310 | [E - Accidental Victory](https://codeforces.com/contest/1490/problem/E) | [GNU C++17](./codeforces/1490/E.cpp) | `binary search` `data structures` `greedy` `*1400` | Nov/13/2021 22:41 | 
 309 | [C - Building a Fence](https://codeforces.com/contest/1469/problem/C) | [GNU C++17](./codeforces/1469/C.cpp) | `dp` `greedy` `implementation` `two pointers` `*1600` | Nov/12/2021 21:20 | 
@@ -142,8 +143,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 185 | [B - Restore Modulo](https://codeforces.com/contest/1484/problem/B) | [GNU C++17](./codeforces/1484/B.cpp) | `implementation` `math` `*1500` | Mar/21/2021 19:49 | 
 184 | [A - Prison Break](https://codeforces.com/contest/1484/problem/A) | [GNU C++17](./codeforces/1484/A.cpp) | `constructive algorithms` `*800` | Mar/21/2021 18:54 | 
 183 | [B - Plus Matrix](https://atcoder.jp/contests/arc115/tasks/arc115_b) | [C++ (GCC 9.2.1)](./atcoder/arc115/B.cpp) | `AtCoder` `*400` | Mar/21/2021 17:55 | 
-182 | [A - Two Choices](https://atcoder.jp/contests/arc115/tasks/arc115_a) | [C++ (GCC 9.2.1)](./atcoder/arc115/A.cpp) | `AtCoder` `*300` | Mar/21/2021 17:39 | 
-181 | [C - ℕ Coloring](https://atcoder.jp/contests/arc115/tasks/arc115_c) | [C++ (GCC 9.2.1)](./atcoder/arc115/C.cpp) | `AtCoder` `*500` | Mar/21/2021 17:39 | 
+182 | [C - ℕ Coloring](https://atcoder.jp/contests/arc115/tasks/arc115_c) | [C++ (GCC 9.2.1)](./atcoder/arc115/C.cpp) | `AtCoder` `*500` | Mar/21/2021 17:39 | 
+181 | [A - Two Choices](https://atcoder.jp/contests/arc115/tasks/arc115_a) | [C++ (GCC 9.2.1)](./atcoder/arc115/A.cpp) | `AtCoder` `*300` | Mar/21/2021 17:39 | 
 180 | [D - Hanjo](https://atcoder.jp/contests/abc196/tasks/abc196_d) | [C++ (GCC 9.2.1)](./atcoder/abc196/D.cpp) | `AtCoder` `*400` | Mar/20/2021 18:58 | 
 179 | [C - Doubled](https://atcoder.jp/contests/abc196/tasks/abc196_c) | [C++ (GCC 9.2.1)](./atcoder/abc196/C.cpp) | `AtCoder` `*300` | Mar/20/2021 18:10 | 
 178 | [B - Round Down](https://atcoder.jp/contests/abc196/tasks/abc196_b) | [C++ (GCC 9.2.1)](./atcoder/abc196/B.cpp) | `AtCoder` `*200` | Mar/20/2021 17:33 | 
