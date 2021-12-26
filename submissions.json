@@ -1231,6 +1231,22 @@
     ],
     "timestamp": "Sep/04/2021 03:14"
   },
+  "AC28178085": {
+    "contest_id": "arc132",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc132/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Shift and Reverse",
+    "problem_url": "https://atcoder.jp/contests/arc132/tasks/arc132_b",
+    "submission_id": "AC28178085",
+    "submission_url": "https://atcoder.jp/contests/arc132/submissions/28178085",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Dec/26/2021 19:12"
+  },
   "CF101169224": {
     "contest_id": 1406,
     "language": "GNU C++17",
