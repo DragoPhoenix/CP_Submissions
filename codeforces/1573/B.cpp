@@ -66,26 +66,17 @@ void solve()
         c[b[i]] = i;
     }
 
-    // set<int> st;
-    // FOR(i, n)
-    //     st.insert(i);
+    set<int> st;
+    FOR(i, n)
+        st.insert(i);
 
-    // FORL(i, 1, 2 * n)
-    // {
-    //     x = c[i];
-    //     y = *st.begin();
-    //     f = min(f, x + y);
-    //     i++;
-    //     st.erase(c[i]);
-    // }
-
-    y = c[2*n];
-    FORR(i, 2 * n - 1, 1)
+    FORL(i, 1, 2 * n)
     {
         x = c[i];
+        y = *st.begin();
         f = min(f, x + y);
-        i--;
-        y = min(y, c[i]);
+        i++;
+        st.erase(c[i]);
     }
     cout << f << "\n";
 }
