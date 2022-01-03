@@ -55,7 +55,7 @@ bool mycomp(pi a, pi b)
         return true;
     else if(a.F == b.F)
     {
-        if(a.S > b.S)
+        if(a.S > b.F)
             return true;
         return false;
     }
@@ -71,7 +71,8 @@ void solve()
 
     queue<ll> q;
     vi a(m + 2, 0);
-    priority_queue<pi, vector<pi>, function<bool(pi&, pi&)>> pq(mycomp);
+    // priority_queue<pi, vector<pi>, function<bool(pi&, pi&)>> pq(mycomp);
+    priority_queue<pi> pq;
 
     FOR(i, m)
     {
@@ -81,7 +82,7 @@ void solve()
         {
             cin >> y;
             q.push(++k);
-            pq.push({y, k});
+            pq.push({y, -k});
             a[k] = 1;
         }
         else if(x == 2)
@@ -101,8 +102,8 @@ void solve()
             y = 0;
             while(!y)
             {
-                y = a[pq.top().S];
-                t = pq.top().S;
+                y = a[-pq.top().S];
+                t = -pq.top().S;
                 pq.pop();
             }
             a[t] = 0;
