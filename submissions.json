@@ -5889,6 +5889,22 @@
     ],
     "timestamp": "Jan/11/2022 19:13"
   },
+  "CF142523089": {
+    "contest_id": 188,
+    "language": "Roco",
+    "path": "codeforces/188/A.roco",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Hexagonal Numbers",
+    "problem_url": "https://codeforces.com/contest/188/problem/A",
+    "submission_id": "CF142523089",
+    "submission_url": "https://codeforces.com/contest/188/submission/142523089",
+    "tags": [
+      "*special problem",
+      "*1100"
+    ],
+    "timestamp": "Jan/12/2022 20:15"
+  },
   "CF142623527": {
     "contest_id": 1559,
     "language": "GNU C++17",
