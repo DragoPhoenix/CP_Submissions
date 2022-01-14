@@ -69,6 +69,44 @@ void solve()
         return;
     }
 
+    x = 0;
+    FOR(i, n)
+    {
+        if(s[i] == t[x])
+        {
+            x++;
+            if(x == m)
+                break;
+        }
+    }
+    if(x != m)
+    {
+        no
+        return;
+    }
+    k = y = 0;
+    FOR(i, n)
+    {
+        if(k < m && s[i] != t[k])
+        {
+            i++;
+        }
+        else if(k < m)
+        {
+            k++;
+        }
+        else
+        {
+            y++;
+        }
+    }
+    if(y % 2 == 0 && k == m)
+    {
+        // pr1(y)
+        yes
+        return;
+    }
+
     if((n - m) % 2)
     {
         s = s.substr(1);
@@ -102,7 +140,7 @@ void solve()
         no
         return;
     }
-    k = 0;
+    k = y = 0;
     FOR(i, n)
     {
         if(k < m && s[i] != t[k])
