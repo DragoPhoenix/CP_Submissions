@@ -5889,6 +5889,27 @@
     ],
     "timestamp": "Jan/11/2022 19:13"
   },
+  "CF143115235": {
+    "contest_id": 1547,
+    "language": "GNU C++17",
+    "path": "codeforces/1547/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Array Stabilization (GCD version)",
+    "problem_url": "https://codeforces.com/contest/1547/problem/F",
+    "submission_id": "CF143115235",
+    "submission_url": "https://codeforces.com/contest/1547/submission/143115235",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "divide and conquer",
+      "number theory",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Jan/17/2022 17:20"
+  },
   "CF143242029": {
     "contest_id": 1459,
     "language": "GNU C++17",
