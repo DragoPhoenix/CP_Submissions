@@ -1375,6 +1375,22 @@
     ],
     "timestamp": "Dec/26/2021 19:12"
   },
+  "AC28722762": {
+    "contest_id": "abc236",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc236/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Who is missing?",
+    "problem_url": "https://atcoder.jp/contests/abc236/tasks/abc236_b",
+    "submission_id": "AC28722762",
+    "submission_url": "https://atcoder.jp/contests/abc236/submissions/28722762",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jan/23/2022 17:33"
+  },
   "AC28728300": {
     "contest_id": "abc236",
     "language": "C++ (GCC 9.2.1)",
