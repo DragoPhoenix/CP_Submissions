@@ -1375,6 +1375,22 @@
     ],
     "timestamp": "Dec/26/2021 19:12"
   },
+  "AC28865141": {
+    "contest_id": "arc134",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc134/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Bridge and Sheets",
+    "problem_url": "https://atcoder.jp/contests/arc134/tasks/arc134_a",
+    "submission_id": "AC28865141",
+    "submission_url": "https://atcoder.jp/contests/arc134/submissions/28865141",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jan/29/2022 18:06"
+  },
   "AC28868356": {
     "contest_id": "arc134",
     "language": "C++ (GCC 9.2.1)",
