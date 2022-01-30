@@ -52,27 +52,39 @@ void solve()
     string s;
 
     cin >> n >> s;
+    
+    vi a(n + 1, -1), b;
 
-    deque<int> q;
-    q.push_back(n);
+    z = n;
+    if(s[0] == 'L')
+    {
+        a[n] = 0;
+        x = 0;
+        z--;
+    }
+    else
+    {
+        a[0] = 0;
+        x = 1;
+    }
 
-    FORR(i, n - 1, 0)
+    FORL(i, 1, n)
     {
         if(s[i] == 'L')
         {
-            q.push_back(i);
+            a[z] = i;
+            z--;
         }
         else
         {
-            q.push_front(i);
+            a[x] = i;
+            x++;
         }
     }
-
-    while(!q.empty())
-    {
-        cout << q.front() << " ";
-        q.pop_front();
-    }
+    a[x] = n;
+    
+    for(auto e : a)
+        cout << e << " ";
     cout << "\n";
 }
 
