@@ -5889,6 +5889,24 @@
     ],
     "timestamp": "Jan/11/2022 19:13"
   },
+  "CF145045456": {
+    "contest_id": 1413,
+    "language": "GNU C++17",
+    "path": "codeforces/1413/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Shurikens",
+    "problem_url": "https://codeforces.com/contest/1413/problem/D",
+    "submission_id": "CF145045456",
+    "submission_url": "https://codeforces.com/contest/1413/submission/145045456",
+    "tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Feb/03/2022 20:22"
+  },
   "CF145153548": {
     "contest_id": 1409,
     "language": "GNU C++17",
