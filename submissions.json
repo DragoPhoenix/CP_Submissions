@@ -6647,6 +6647,22 @@
     ],
     "timestamp": "Feb/06/2022 19:09"
   },
+  "CF150235567": {
+    "contest_id": 1654,
+    "language": "GNU C++17",
+    "path": "codeforces/1654/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Prefix Removals",
+    "problem_url": "https://codeforces.com/contest/1654/problem/B",
+    "submission_id": "CF150235567",
+    "submission_url": "https://codeforces.com/contest/1654/submission/150235567",
+    "tags": [
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Mar/20/2022 17:13"
+  },
   "CF150254725": {
     "contest_id": 1654,
     "language": "GNU C++17",
