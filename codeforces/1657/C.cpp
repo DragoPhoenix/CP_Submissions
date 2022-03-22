@@ -44,36 +44,79 @@ typedef pair<ll,ll> pi;
 inline long long  max3(long long  a, long long  b,long long  c){return (a)>(b)?((a)>(c)?(a):(c)):((b)>(c)?(b):(c));}
 inline long long  min3(long long  a, long long b,long long c){return (a)<(b)?((a)<(c)?(a):(c)):((b)<(c)?(b):(c));}
 
-const ll N=2e5+5;
+const ll N=1e6+9;
+vector<long long> p_pow(N), p_inv(N);
+const int p = 31;
+const int m = 1e9 + 9;
+
+ll extgcd(ll a, ll b, ll &x, ll &y) 
+{                    
+    if (b == 0) {
+        x = 1;
+        y = 0;
+        return a;
+    }
+    ll d = extgcd(b, a%b, y, x);
+    y -= a / b * x;
+    return d;
+}
+
+inline ll mod(ll a, ll m) {                           
+    return (a % m + m) % m;
+}
+
+ll modinv(ll a) 
+{                                  
+    ll x, y;
+    extgcd(a, m, x, y);
+    return mod(x, m);
+}
+
+void pre()
+{
+    p_pow[0] = 1;
+    for (int i = 1; i < N; i++)
+        p_pow[i] = (p_pow[i-1] * p) % m;
+
+    for (int i = 1; i < N; i++)
+        p_inv[i] = modinv(p_pow[i]);   
+}
+
+vi pres(string const& s) 
+{
+    int n = s.size();
+
+    vector<long long> h(n + 1, 0);
+    for (int i = 0; i < n; i++)
+        h[i+1] = (h[i] + ((s[i] - 'a' + 1) * p_pow[i]) % m + m) % m;
+    return h;
+}
 
 void solve()
 {
-    ll n, m, t = 0, k = 0, x = 0, y = 0, z = 0, a1, a2, a3, a4, a5, var = 1, f = INF;
-    string s;
+    ll n, ty = 0, k = 0, x = 0, y = 0, z = 0, a1, a2, a3, a4, a5, var = 1, f = INF;
+    string s, t;
 
-     cin >> n >> s;
+    cin >> n >> s;
 
     x = 0;
 
     x = 0; // from
     y = 1; // flag
     k = 0; // brck
-    a1 = -1;
-    a2 = 0;
+    
+    t = s + '?';
+    FORR(i, n - 1, 0)
+    t += s[i];
+
+    vi a = pres(t);
 
     FOR(i, n)
     {
         if(s[i] == '(')
-        {
-            a1 = 1;
             k++;
-        }
         else
-        {
-            a1 = 0;
-            a2++;
             k--;
-        }
         if(k < 0)
             y = 0;
 
@@ -88,14 +131,14 @@ void solve()
         {
             if(i - x + 1 >= 2)
             {
-                if(s[x] == '(' || (s[x] == ')' && s[i] == ')'))
-                {
-                    z++;
-                    x = i + 1;
-                    k = 0;
-                    y = 1;
-                }
-                else if(s[x] == ')' && s[i] == ')')
+                a1 = i - x + 1;
+                a2 = (a[i+1] - a[x] + m) % m;
+                a3 = (a[2*n + 1 -x] - a[2 * n  + 1 - x - a1] + m) % m;
+
+                a2 = (a2 * p_inv[x + 1] + m) % m;
+                a3 = (a3 * p_inv[2 * n  + 1 - x - a1 + 1] + m) % m;
+
+                if(a2 == a3)
                 {
                     z++;
                     x = i + 1;
@@ -113,6 +156,7 @@ int main()
 {
     by_ANIKET
     ll T = 1,t = 0;
+    pre();
     cin >> T;
     while(t++ < T)
     {
