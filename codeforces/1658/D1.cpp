@@ -98,20 +98,20 @@ void solve()
         return;
     }
 
-    // if(n % 2)
-    // {
-    //     y = 0;
-    //     FORL(i, l, r + 1)
-    //     {
-    //         y = y ^ i;
-    //     }
-    //     FOR(i, n)
-    //         x =  x ^ a[i];
+    if(n % 2)
+    {
+        y = 0;
+        FORL(i, l, r + 1)
+        {
+            y = y ^ i;
+        }
+        FOR(i, n)
+            x =  x ^ a[i];
             
-    //     x = x ^ y;
-    //     cout << x << "\n";
-    //     return;
-    // }  
+        x = x ^ y;
+        cout << x << "\n";
+        return;
+    }  
 
     y = 0;
     vi c(18, 0), d(18, 0);
