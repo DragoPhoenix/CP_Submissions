@@ -6647,6 +6647,23 @@
     ],
     "timestamp": "Feb/06/2022 19:09"
   },
+  "CF151356823": {
+    "contest_id": 1504,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1504/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": " D\u00e9j\u00e0 Vu",
+    "problem_url": "https://codeforces.com/contest/1504/problem/A",
+    "submission_id": "CF151356823",
+    "submission_url": "https://codeforces.com/contest/1504/submission/151356823",
+    "tags": [
+      "constructive algorithms",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Mar/29/2022 23:25"
+  },
   "CF151433757": {
     "contest_id": 1517,
     "language": "GNU C++20 (64)",
