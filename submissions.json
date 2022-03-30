@@ -6647,6 +6647,24 @@
     ],
     "timestamp": "Feb/06/2022 19:09"
   },
+  "CF151433757": {
+    "contest_id": 1517,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1517/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Morning Jogging",
+    "problem_url": "https://codeforces.com/contest/1517/problem/B",
+    "submission_id": "CF151433757",
+    "submission_url": "https://codeforces.com/contest/1517/submission/151433757",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Mar/30/2022 21:42"
+  },
   "CF151509683": {
     "contest_id": 1660,
     "language": "GNU C++20 (64)",
