@@ -6647,6 +6647,23 @@
     ],
     "timestamp": "Feb/06/2022 19:09"
   },
+  "CF152688306": {
+    "contest_id": 1455,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1455/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Strange Functions",
+    "problem_url": "https://codeforces.com/contest/1455/problem/A",
+    "submission_id": "CF152688306",
+    "submission_url": "https://codeforces.com/contest/1455/submission/152688306",
+    "tags": [
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Apr/04/2022 22:06"
+  },
   "CF152772922": {
     "contest_id": 1455,
     "language": "GNU C++20 (64)",
