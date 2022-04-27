@@ -6647,6 +6647,22 @@
     ],
     "timestamp": "Feb/06/2022 19:09"
   },
+  "CF155144764": {
+    "contest_id": 155,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/155/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "I_love_\\%username\\%",
+    "problem_url": "https://codeforces.com/contest/155/problem/A",
+    "submission_id": "CF155144764",
+    "submission_url": "https://codeforces.com/contest/155/submission/155144764",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "Apr/27/2022 23:22"
+  },
   "CF155227476": {
     "contest_id": 609,
     "language": "GNU C++20 (64)",
