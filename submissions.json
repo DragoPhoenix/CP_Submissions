@@ -6647,6 +6647,23 @@
     ],
     "timestamp": "Feb/06/2022 19:09"
   },
+  "CF157554992": {
+    "contest_id": 203,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/203/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Photographer",
+    "problem_url": "https://codeforces.com/contest/203/problem/C",
+    "submission_id": "CF157554992",
+    "submission_url": "https://codeforces.com/contest/203/submission/157554992",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "May/18/2022 16:00"
+  },
   "CF73384963": {
     "contest_id": 791,
     "language": "GNU C++14",
