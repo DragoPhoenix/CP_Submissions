@@ -8051,6 +8051,24 @@
     ],
     "timestamp": "May/18/2022 16:00"
   },
+  "CF159083636": {
+    "contest_id": 1455,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1455/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Sequence and Swaps",
+    "problem_url": "https://codeforces.com/contest/1455/problem/D",
+    "submission_id": "CF159083636",
+    "submission_url": "https://codeforces.com/contest/1455/submission/159083636",
+    "tags": [
+      "dp",
+      "greedy",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "May/31/2022 23:17"
+  },
   "CF159181331": {
     "contest_id": 1431,
     "language": "Kotlin 1.4",
