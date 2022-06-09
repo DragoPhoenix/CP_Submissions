@@ -8051,6 +8051,23 @@
     ],
     "timestamp": "May/18/2022 16:00"
   },
+  "CF159989934": {
+    "contest_id": 1428,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1428/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Belted Rooms",
+    "problem_url": "https://codeforces.com/contest/1428/problem/B",
+    "submission_id": "CF159989934",
+    "submission_url": "https://codeforces.com/contest/1428/submission/159989934",
+    "tags": [
+      "graphs",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jun/09/2022 11:30"
+  },
   "CF160063001": {
     "contest_id": 91,
     "language": "GNU C++20 (64)",
