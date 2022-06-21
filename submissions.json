@@ -8051,6 +8051,23 @@
     ],
     "timestamp": "May/18/2022 16:00"
   },
+  "CF161407904": {
+    "contest_id": 1431,
+    "language": "Kotlin 1.4",
+    "path": "codeforces/1431/C.kt",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Black Friday",
+    "problem_url": "https://codeforces.com/contest/1431/problem/C",
+    "submission_id": "CF161407904",
+    "submission_url": "https://codeforces.com/contest/1431/submission/161407904",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Jun/21/2022 21:17"
+  },
   "CF161488173": {
     "contest_id": 627,
     "language": "GNU C++20 (64)",
