@@ -8051,6 +8051,24 @@
     ],
     "timestamp": "May/18/2022 16:00"
   },
+  "CF161669178": {
+    "contest_id": 158,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/158/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Taxi",
+    "problem_url": "https://codeforces.com/contest/158/problem/B",
+    "submission_id": "CF161669178",
+    "submission_url": "https://codeforces.com/contest/158/submission/161669178",
+    "tags": [
+      "*special problem",
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Jun/24/2022 23:52"
+  },
   "CF161798203": {
     "contest_id": 1452,
     "language": "GNU C++20 (64)",
