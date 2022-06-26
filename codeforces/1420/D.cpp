@@ -72,25 +72,13 @@ ll modinv(ll a) {                                         // mod inverse a wrt 1
 void pre()
 {
     fct[0] = 1;
-    FORL(i, 1, N)
+    FORL(i, 1, N-2)
     {
         fct[i] = fct[i-1] * i;
         fct[i] %= MOD;
+        i_fct[i] = modinv(fct[i]);
     }
-
-    /*
-    n! = n * (n-1) !
-    ==> 1/(n-1!) = n/(n!)
-    ==> (1/(n-1!)) % M = (n/(n!)) % M
-    ==> (1/(n-1!)) % M = ((n % M) * ((1/(n!)) % M)) % M
-    */
-
-    i_fct[N - 1] = modinv(fct[N - 1]);
-    FORR(i, N-2, 0)
-    {
-        i_fct[i] = i_fct[i + 1] * (i + 1);
-        i_fct[i] %= MOD;
-    }
+    i_fct[0] = i_fct[1];
 }
 
 ll C(ll n, ll r)
