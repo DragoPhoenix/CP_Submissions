@@ -8051,6 +8051,24 @@
     ],
     "timestamp": "May/18/2022 16:00"
   },
+  "CF161852359": {
+    "contest_id": 1420,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1420/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Rescue Nibel!",
+    "problem_url": "https://codeforces.com/contest/1420/problem/D",
+    "submission_id": "CF161852359",
+    "submission_url": "https://codeforces.com/contest/1420/submission/161852359",
+    "tags": [
+      "combinatorics",
+      "data structures",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Jun/26/2022 16:18"
+  },
   "CF161982839": {
     "contest_id": 1415,
     "language": "GNU C++20 (64)",
