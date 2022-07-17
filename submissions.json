@@ -1631,6 +1631,22 @@
     ],
     "timestamp": "Jan/31/2022 00:39"
   },
+  "AC33298098": {
+    "contest_id": "abc260",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc260/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Better Students Are Needed!",
+    "problem_url": "https://atcoder.jp/contests/abc260/tasks/abc260_b",
+    "submission_id": "AC33298098",
+    "submission_url": "https://atcoder.jp/contests/abc260/submissions/33298098",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jul/17/2022 17:40"
+  },
   "AC33301838": {
     "contest_id": "abc260",
     "language": "C++ (GCC 9.2.1)",
