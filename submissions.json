@@ -1631,6 +1631,22 @@
     ],
     "timestamp": "Jan/31/2022 00:39"
   },
+  "AC33301838": {
+    "contest_id": "abc260",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc260/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Changing Jewels",
+    "problem_url": "https://atcoder.jp/contests/abc260/tasks/abc260_c",
+    "submission_id": "AC33301838",
+    "submission_url": "https://atcoder.jp/contests/abc260/submissions/33301838",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jul/17/2022 17:50"
+  },
   "AC33317339": {
     "contest_id": "abc260",
     "language": "C++ (GCC 9.2.1)",
