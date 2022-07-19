@@ -8051,6 +8051,23 @@
     ],
     "timestamp": "May/18/2022 16:00"
   },
+  "CF164918745": {
+    "contest_id": 1681,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1681/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Double Sort",
+    "problem_url": "https://codeforces.com/contest/1681/problem/C",
+    "submission_id": "CF164918745",
+    "submission_url": "https://codeforces.com/contest/1681/submission/164918745",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jul/19/2022 21:35"
+  },
   "CF165031480": {
     "contest_id": 1651,
     "language": "GNU C++20 (64)",
