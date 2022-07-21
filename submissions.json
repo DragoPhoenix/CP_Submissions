@@ -8051,6 +8051,25 @@
     ],
     "timestamp": "May/18/2022 16:00"
   },
+  "CF165137821": {
+    "contest_id": 1709,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1709/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Three Doors",
+    "problem_url": "https://codeforces.com/contest/1709/problem/A",
+    "submission_id": "CF165137821",
+    "submission_url": "https://codeforces.com/contest/1709/submission/165137821",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jul/21/2022 20:10"
+  },
   "CF165152214": {
     "contest_id": 1709,
     "language": "GNU C++20 (64)",
