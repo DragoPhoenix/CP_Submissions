@@ -96,52 +96,15 @@ void solve()
         else
         {
             if(b.empty() || a[x] > b.back())
-            {
-                if(x == y)
-                {
-                    s += 'L';
-                    break;
-                }
-                k = b.empty() ? -1 : b.back();
-                t = 0;
-                FORL(i, x, y)
-                {
-                    if(a[i] > k)
-                    {
-                        k = a[i];
-                        t++;
-                    }
-                    else
-                        break;
-                }
-                a1 = t;
-                k = b.empty() ? -1 : b.back();
-                t = 0;
-                FORR(i, y, x + 1)
-                {
-                    if(a[i] > k)
-                    {
-                        k = a[i];
-                        t++;
-                    }
-                    else
-                        break;
-                }
-                if(t > a1)
-                {
-                    FOR(i, t)
-                    s += 'R';
-                }
-                else
-                {
-                    FOR(i, a1)
-                    s += 'L';
-                }
+            {    
+                b.PB(a[x]);
+                x++;
+                s.PB('L');
             }
             break;
         }
     }
-    cout << s.size() << "\n";
+    cout << b.size() << "\n";
     cout << s << "\n";
 }
 
