@@ -48,57 +48,53 @@ const ll N=2e5+5;
 
 void solve()
 {
-    ll n, m, t = 0, k = 0, x = 0, y = 0, z = 0, a1, a2, a3, a4, a5, var = 1, f = INF;
-    string s;
+	ll n, m, t = 0, k = 0, x = 0, y = 0, z = 0, a1, a2, a3, a4, a5, var = 1, f = INF;
+	string s;
 
-    cin >> n;
-    
-    vi a(n);
-    FOR(i, n) cin >> a[i];
+	cin >> n;
+	
+	vi a(n);
+	FOR(i, n) cin >> a[i];
 
-    multiset<ll> st;
-    FOR(i, n)
-    {
-        if(a[i] >= 0)
-        {
-            z += a[i];
-            x++;
-        }
-        else
-        {
-            if(z + a[i] >= 0)
-            {
-                z += a[i];
-                x++;
-                st.insert(a[i]);
-            }
-            else
-            {
-                if(*st.begin() < a[i])
-                {
-                    z -= *st.begin();
-                    st.erase(st.begin());
-                    st.insert(a[i]);
-                    z += a[i];
-                }
-            }
-        }
-    }
-    cout << x << "\n";
+	priority_queue<int, vector<int>, greater<int>> pq;
+
+	FOR(i, n)
+	{
+		if(x + a[i] >= 0)
+		{
+			x += a[i];
+			if(a[i] < 0)
+			{
+				pq.push(a[i]);
+			}
+			z++;
+		}
+		else if(!pq.empty())
+		{
+			if(pq.top() < a[i])
+			{
+				x -= pq.top();
+				x += a[i];
+				pq.pop();
+				pq.push(a[i]);
+			}
+		}
+	}
+	cout << z << "\n";
 }
 
 int main() 
 {
-    by_ANIKET
-    ll T = 1,t = 0;
-    // cin >> T;
-    while(t++ < T)
-    {
-        // cout<<"Case #"<<t<<":"<<' ';
+	by_ANIKET
+	ll T = 1,t = 0;
+	// cin >> T;
+	while(t++ < T)
+	{
+		// cout<<"Case #"<<t<<":"<<' ';
         solve();
         // cout<<'\n';
-    }
-    cerr << "Time : " << 1000 * ((double)clock()) / (double)CLOCKS_PER_SEC << "ms\n";
+	}
+	cerr << "Time : " << 1000 * ((double)clock()) / (double)CLOCKS_PER_SEC << "ms\n";
 }
 //   ©
 //                      ______  __    __ ______ __    __ ________ ________ 
