@@ -1775,6 +1775,22 @@
     ],
     "timestamp": "Jul/17/2022 18:56"
   },
+  "AC34380311": {
+    "contest_id": "abc266",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc266/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Convex Quadrilateral",
+    "problem_url": "https://atcoder.jp/contests/abc266/tasks/abc266_c",
+    "submission_id": "AC34380311",
+    "submission_url": "https://atcoder.jp/contests/abc266/submissions/34380311",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/27/2022 17:45"
+  },
   "AC34393151": {
     "contest_id": "abc266",
     "language": "C++ (GCC 9.2.1)",
