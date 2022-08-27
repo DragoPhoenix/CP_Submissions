@@ -13,14 +13,15 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-609 | [A - Theatre Square](https://codeforces.com/contest/1/problem/A) | [GNU C++20 (64)](./codeforces/1/A.cpp) | `math` `*1000` | Sep/06/2022 23:26 | 
-608 | [A - Image](https://codeforces.com/contest/1721/problem/A) | [GNU C++20 (64)](./codeforces/1721/A.cpp) | `greedy` `implementation` `*800` | Sep/05/2022 23:50 | 
-607 | [B - WeirdSort](https://codeforces.com/contest/1311/problem/B) | [GNU C++20 (64)](./codeforces/1311/B.cpp) | `dfs and similar` `sortings` `*1200` | Sep/04/2022 23:52 | 
-606 | [C - Word Game](https://codeforces.com/contest/1722/problem/C) | [GNU C++20 (64)](./codeforces/1722/C.cpp) | `data structures` `implementation` `*800` | Sep/03/2022 21:22 | 
-605 | [B - Colourblindness](https://codeforces.com/contest/1722/problem/B) | [GNU C++20 (64)](./codeforces/1722/B.cpp) | `implementation` `*800` | Sep/02/2022 23:01 | 
-604 | [D - Line](https://codeforces.com/contest/1722/problem/D) | [GNU C++20 (64)](./codeforces/1722/D.cpp) | `greedy` `sortings` `*1100` | Sep/01/2022 23:20 | 
-603 | [A - Spell Check](https://codeforces.com/contest/1722/problem/A) | [GNU C++20 (64)](./codeforces/1722/A.cpp) | `implementation` `*800` | Aug/31/2022 23:34 | 
-602 | [G - Even-Odd XOR](https://codeforces.com/contest/1722/problem/G) | [GNU C++20 (64)](./codeforces/1722/G.cpp) | `bitmasks` `constructive algorithms` `greedy` `*1500` | Aug/30/2022 20:55 | 
+610 | [A - Theatre Square](https://codeforces.com/contest/1/problem/A) | [GNU C++20 (64)](./codeforces/1/A.cpp) | `math` `*1000` | Sep/06/2022 23:26 | 
+609 | [A - Image](https://codeforces.com/contest/1721/problem/A) | [GNU C++20 (64)](./codeforces/1721/A.cpp) | `greedy` `implementation` `*800` | Sep/05/2022 23:50 | 
+608 | [B - WeirdSort](https://codeforces.com/contest/1311/problem/B) | [GNU C++20 (64)](./codeforces/1311/B.cpp) | `dfs and similar` `sortings` `*1200` | Sep/04/2022 23:52 | 
+607 | [C - Word Game](https://codeforces.com/contest/1722/problem/C) | [GNU C++20 (64)](./codeforces/1722/C.cpp) | `data structures` `implementation` `*800` | Sep/03/2022 21:22 | 
+606 | [B - Colourblindness](https://codeforces.com/contest/1722/problem/B) | [GNU C++20 (64)](./codeforces/1722/B.cpp) | `implementation` `*800` | Sep/02/2022 23:01 | 
+605 | [D - Line](https://codeforces.com/contest/1722/problem/D) | [GNU C++20 (64)](./codeforces/1722/D.cpp) | `greedy` `sortings` `*1100` | Sep/01/2022 23:20 | 
+604 | [A - Spell Check](https://codeforces.com/contest/1722/problem/A) | [GNU C++20 (64)](./codeforces/1722/A.cpp) | `implementation` `*800` | Aug/31/2022 23:34 | 
+603 | [G - Even-Odd XOR](https://codeforces.com/contest/1722/problem/G) | [GNU C++20 (64)](./codeforces/1722/G.cpp) | `bitmasks` `constructive algorithms` `greedy` `*1500` | Aug/30/2022 20:55 | 
+602 | [D - Snuke Panic (1D)](https://atcoder.jp/contests/abc266/tasks/abc266_d) | [C++ (GCC 9.2.1)](./atcoder/abc266/D.cpp) | `AtCoder` `*400` | Aug/27/2022 18:22 | 
 601 | [B - Okabe and Banana Trees](https://codeforces.com/contest/821/problem/B) | [GNU C++20 (64)](./codeforces/821/B.cpp) | `brute force` `math` `*1300` | Aug/27/2022 16:49 | 
 600 | [C - Destroying Array](https://codeforces.com/contest/722/problem/C) | [GNU C++20 (64)](./codeforces/722/C.cpp) | `data structures` `dsu` `*1600` | Aug/26/2022 22:27 | 
 599 | [C1 - Skyscrapers (easy version)](https://codeforces.com/contest/1313/problem/C1) | [GNU C++20 (64)](./codeforces/1313/C1.cpp) | `brute force` `data structures` `dp` `greedy` `*1500` | Aug/25/2022 23:10 | 
