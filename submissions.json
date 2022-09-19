@@ -10196,6 +10196,23 @@
     ],
     "timestamp": "Sep/06/2022 23:26"
   },
+  "CF172746333": {
+    "contest_id": 1733,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1733/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Consecutive Sum",
+    "problem_url": "https://codeforces.com/contest/1733/problem/A",
+    "submission_id": "CF172746333",
+    "submission_url": "https://codeforces.com/contest/1733/submission/172746333",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Sep/19/2022 23:04"
+  },
   "CF172866773": {
     "contest_id": 1733,
     "language": "GNU C++20 (64)",
