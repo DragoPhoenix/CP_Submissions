@@ -80,7 +80,7 @@ void solve()
 
     FOR(i, n)
         FOR(j, i+1)
-            if(a[i][j] == 1)
+            if(a[i][j] >= 1)
                 z++;
     
     cout << z << "\n";            
