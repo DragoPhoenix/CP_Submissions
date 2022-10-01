@@ -10196,6 +10196,24 @@
     ],
     "timestamp": "Sep/06/2022 23:26"
   },
+  "CF174256546": {
+    "contest_id": 1730,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces/1730/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Planets",
+    "problem_url": "https://codeforces.com/contest/1730/problem/A",
+    "submission_id": "CF174256546",
+    "submission_url": "https://codeforces.com/contest/1730/submission/174256546",
+    "tags": [
+      "data structures",
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Oct/01/2022 19:12"
+  },
   "CF174371924": {
     "contest_id": 1739,
     "language": "GNU C++20 (64)",
