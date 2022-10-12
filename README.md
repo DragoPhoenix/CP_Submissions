@@ -13,9 +13,10 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-616 | [B - Amr and Pins](https://codeforces.com/contest/507/problem/B) | [GNU C++20 (64)](./codeforces/507/B.cpp) | `geometry` `math` `*1400` | Oct/15/2022 23:00 | 
-615 | [A - Boredom](https://codeforces.com/contest/455/problem/A) | [GNU C++20 (64)](./codeforces/455/A.cpp) | `dp` `*1500` | Oct/14/2022 22:16 | 
-614 | [C - Save the Nature](https://codeforces.com/contest/1223/problem/C) | [GNU C++20 (64)](./codeforces/1223/C.cpp) | `binary search` `greedy` `*1600` | Oct/13/2022 23:03 | 
+617 | [B - Amr and Pins](https://codeforces.com/contest/507/problem/B) | [GNU C++20 (64)](./codeforces/507/B.cpp) | `geometry` `math` `*1400` | Oct/15/2022 23:00 | 
+616 | [A - Boredom](https://codeforces.com/contest/455/problem/A) | [GNU C++20 (64)](./codeforces/455/A.cpp) | `dp` `*1500` | Oct/14/2022 22:16 | 
+615 | [C - Save the Nature](https://codeforces.com/contest/1223/problem/C) | [GNU C++20 (64)](./codeforces/1223/C.cpp) | `binary search` `greedy` `*1600` | Oct/13/2022 23:03 | 
+614 | [B - Catch Overflow!](https://codeforces.com/contest/1175/problem/B) | [GNU C++20 (64)](./codeforces/1175/B.cpp) | `data structures` `expression parsing` `implementation` `*1600` | Oct/12/2022 16:54 | 
 613 | [A - Theatre Square](https://codeforces.com/contest/1/problem/A) | [GNU C++20 (64)](./codeforces/1/A.cpp) | `math` `*1000` | Sep/06/2022 23:26 | 
 612 | [A - Image](https://codeforces.com/contest/1721/problem/A) | [GNU C++20 (64)](./codeforces/1721/A.cpp) | `greedy` `implementation` `*800` | Sep/05/2022 23:50 | 
 611 | [B - WeirdSort](https://codeforces.com/contest/1311/problem/B) | [GNU C++20 (64)](./codeforces/1311/B.cpp) | `dfs and similar` `sortings` `*1200` | Sep/04/2022 23:52 | 
