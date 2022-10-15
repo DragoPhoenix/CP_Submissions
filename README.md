@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+614 | [B - Amr and Pins](https://codeforces.com/contest/507/problem/B) | [GNU C++20 (64)](./codeforces/507/B.cpp) | `geometry` `math` `*1400` | Oct/15/2022 23:00 | 
 613 | [A - Theatre Square](https://codeforces.com/contest/1/problem/A) | [GNU C++20 (64)](./codeforces/1/A.cpp) | `math` `*1000` | Sep/06/2022 23:26 | 
 612 | [A - Image](https://codeforces.com/contest/1721/problem/A) | [GNU C++20 (64)](./codeforces/1721/A.cpp) | `greedy` `implementation` `*800` | Sep/05/2022 23:50 | 
 611 | [B - WeirdSort](https://codeforces.com/contest/1311/problem/B) | [GNU C++20 (64)](./codeforces/1311/B.cpp) | `dfs and similar` `sortings` `*1200` | Sep/04/2022 23:52 | 
