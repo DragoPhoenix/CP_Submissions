@@ -13,7 +13,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-660 | [B - Almost Sorted](https://codeforces.com/contest/1508/problem/B) | [GNU C++20 (64)](./codeforces/1508/B.cpp) | `binary search` `combinatorics` `constructive algorithms` `implementation` `*1800` | Oct/24/2022 12:02 | 
+661 | [B - Almost Sorted](https://codeforces.com/contest/1508/problem/B) | [GNU C++20 (64)](./codeforces/1508/B.cpp) | `binary search` `combinatorics` `constructive algorithms` `implementation` `*1800` | Oct/24/2022 12:02 | 
+660 | [D - Maximum Sum on Even Positions](https://codeforces.com/contest/1373/problem/D) | [GNU C++20 (64)](./codeforces/1373/D.cpp) | `divide and conquer` `dp` `greedy` `implementation` `*1600` | Oct/23/2022 21:41 | 
 659 | [B - Amr and Pins](https://codeforces.com/contest/507/problem/B) | [GNU C++20 (64)](./codeforces/507/B.cpp) | `geometry` `math` `*1400` | Oct/15/2022 23:00 | 
 658 | [A - Boredom](https://codeforces.com/contest/455/problem/A) | [GNU C++20 (64)](./codeforces/455/A.cpp) | `dp` `*1500` | Oct/14/2022 22:16 | 
 657 | [C - Save the Nature](https://codeforces.com/contest/1223/problem/C) | [GNU C++20 (64)](./codeforces/1223/C.cpp) | `binary search` `greedy` `*1600` | Oct/13/2022 23:03 | 
